@@ -1,3 +1,4 @@
+<div class="pictureNavbar"></div>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -39,3 +40,8 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+<script type="text/javascript">
+window.onscroll = function(){
+  (window.scrollY >= 350) ? ($('.navbar').addClass('navbar-fixed-top'), $('body').css('padding-top','51px')) : ($('.navbar').removeClass('navbar-fixed-top'), $('body').css('padding-top','0'))
+}
+</script>

@@ -1,7 +1,9 @@
 /*
 I - Css Mini Reset
 II - Global Variables
-III - Home
+III - Navbar
+VI - Footer
+V - Home
  */
 html, body, div, form, fieldset, legend, label {
   margin: 0;
@@ -23,5 +25,11 @@ img {
 
 body {
   background-color: #FBA4A8; }
+
+.pictureNavbar {
+  background-image: url(/images/HautParallax.jpg);
+  background-size: cover;
+  background-position-y: -80px;
+  height: 350px; }
 
 /*# sourceMappingURL=theme.css.map */

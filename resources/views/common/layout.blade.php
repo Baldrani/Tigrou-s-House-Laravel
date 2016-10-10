@@ -10,6 +10,8 @@
 
         <!-- Vue Js -->
         <script type="text/javascript" src="https://unpkg.com/vue@2.0.1/dist/vue.js"></script>
+        <!-- JQuery -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
 
     </head>

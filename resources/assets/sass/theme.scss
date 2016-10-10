@@ -1,7 +1,9 @@
 /*
 I - Css Mini Reset
 II - Global Variables
-III - Home
+III - Navbar
+VI - Footer
+V - Home
  */
 
 // I - Css Mini Reset
@@ -48,4 +50,15 @@ body{
     background-color: $rose-l;
 }
 
-//III - Home
+// III - Navbar
+.pictureNavbar{
+    background-image: url(/images/HautParallax.jpg);
+    background-size: cover;
+    
+    background-position-y: -80px;
+    height: 350px;
+}
+
+// VI - Footer
+
+// V - Home
