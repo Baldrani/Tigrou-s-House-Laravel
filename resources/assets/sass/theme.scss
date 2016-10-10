@@ -1,0 +1,51 @@
+/*
+I - Css Mini Reset
+II - Global Variables
+III - Home
+ */
+
+// I - Css Mini Reset
+html, body, div, form, fieldset, legend, label
+{
+ margin: 0;
+ padding: 0;
+}
+
+table
+{
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+th, td
+{
+ text-align: left;
+ vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6, th, td, caption { font-weight:normal; }
+
+img { border: 0; }
+
+//II - Global Variables
+$rose-dd   : #962026;
+$rose-d    : #B94147;
+$rose      : #E17075;
+$rose-l    : #FBA4A8;
+$rose-ll   : #FDCACD;
+$orange-dd : #994C20;
+$orange-d  : #BD6E42;
+$orange    : #E49B72;
+$orange-l  : #FFC6A6;
+$orange-ll : #FFDECC;
+$violet-dd : #801B4A;
+$violet-d  : #9D3768;
+$violet    : #BF5F8C;
+$violet-l  : #DA8EB2;
+$violet-ll : #EBBCD2;
+
+body{
+    background-color: $rose-l;
+}
+
+//III - Home
