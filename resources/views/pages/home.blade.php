@@ -11,7 +11,14 @@
     <img src="/images/catpow.png" alt="Catpow" style="transform: rotate(40deg);">
     <h1 style="text-align:center;display: inline-block;vertical-align: middle;">Tigrou's House</h1>
     <img src="/images/catpow.png" alt="Catpow" style="transform: rotate(-40deg);">
-    
+
+
+    <div class="row">
+        <div class="col-xs-4">
+            @include('common.photoOfTheDay')
+        </div>
+    </div>
+
     </div>
 </div>
 @endsection
