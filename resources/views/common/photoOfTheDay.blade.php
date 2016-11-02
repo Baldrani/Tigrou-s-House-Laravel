@@ -4,7 +4,26 @@
     border: 2px solid grey;
 }
 figure{
-    padding: 20px;
+    padding: 20px 70px;
+}
+figure:before{
+    content: "<";
+    position: absolute;
+    left: 6%;
+    top: 40%;
+    font-size: 60px;
+    cursor: pointer;
+}
+figure:after{
+    content: ">";
+    position: absolute;
+    right: 6%;
+    top: 40%;
+    font-size: 60px;
+    cursor: pointer;
+}
+figcaption{
+    margin-top: 20px;
 }
 </style>
 <article id='photoOfTheDay'>
@@ -24,5 +43,4 @@ new Vue({
     ready: function() { },
     methods: {}
 });
-
 </script>

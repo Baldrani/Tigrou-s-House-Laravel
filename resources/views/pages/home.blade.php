@@ -14,7 +14,7 @@
 
 
     <div class="row">
-        <div class="col-xs-4">
+        <div class="col-xs-5">
             @include('common.photoOfTheDay')
         </div>
     </div>
