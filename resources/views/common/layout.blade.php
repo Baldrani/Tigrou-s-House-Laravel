@@ -20,5 +20,6 @@
         <div class="container">
             @yield('content')
         </div>
+        @include('common.footer')
     </body>
 </html>
